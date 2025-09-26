@@ -11,16 +11,20 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Cultural authenticity",
+			description: "Deep roots in Korean tea brewing traditions meet modern brand thinking that resonates with today's consumers."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Modern shelf appeal",
+			description: "Creating designs and visuals that stop the scroll and catch the eye in crowded retail spaces."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Market-ready strategy", 
+			description: "Built-in appeal for Gen Z, Korean-American, and health-conscious consumers who seek genuine cultural experiences."
+		},
+		{
+			title: "Heritage innovation",
+			description: "Traditional ingredients like barley, omija, and yuzu reimagined with clean labels and contemporary packaging."
 		}
 	];
 </script>
@@ -44,61 +48,39 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founders."
+	subtitle="Bringing authentic Korean tradition to modern beverage culture."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Erica Silver",
+			position: "Co-founder",
+			bio: "Passionate about creating authentic beverage experiences that honor Korean heritage while appealing to contemporary tastes.",
+			image: "/generated/image-professional-businesswoman-founder-portr.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Jusung Kim",
+			position: "Co-founder",
+			bio: "Expert in traditional Korean brewing methods with a vision for bringing ancestral techniques to global markets.",
+			image: "/generated/image-professional-korean-businessman-founder-.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Deborah Kim",
+			position: "Co-founder",
+			bio: "Brand strategist focused on authentic storytelling that bridges cultural traditions with modern consumer experiences.",
+			image: "/generated/image-professional-korean-american-businesswom.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to launch your next beverage?"
+	subtitle="Let's build something authentic together"
+	description="Join the emerging beverage brands working with us to create Korean-inspired drinks that resonate with modern consumers and stand out in crowded retail spaces."
+	imageSrc="/generated/image-a-young-korean-american-woman-relaxing-i.webp"
 />

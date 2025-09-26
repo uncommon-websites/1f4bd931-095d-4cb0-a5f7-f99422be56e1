@@ -36,11 +36,11 @@
 	});
 </script>
 
-<section class="bg-white dark:bg-gray-950" {...rest}>
+<section class="bg-[#FEF6EE] dark:bg-gray-950" {...rest}>
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="Authentically Korean. Made for now." subtitle="Bori brings centuries of Korean tea tradition to today's shelves without watering anything down" />
 
 		<div
 			class="grid gap-(--gap)"
@@ -49,13 +49,13 @@
 			{#each values as value, i}
 				<div
 					bind:this={cards[i]}
-					class="relative border-t border-gray-200 pt-4 dark:border-gray-900"
+					class="relative border-t border-[#444E3C] pt-6 dark:border-gray-900"
 				>
 					<!-- Content -->
 					<div class="text-caption z-10">
 						<div>
-							<div class="text-headline mb-[1em]">{value.title}</div>
-							<div class="text-body text-gray-500 dark:text-gray-400">{value.description}</div>
+							<div class="text-headline mb-[1em] text-[#444E3C]">{value.title}</div>
+							<div class="text-body text-[#444E3C]/80 dark:text-gray-400">{value.description}</div>
 						</div>
 					</div>
 				</div>

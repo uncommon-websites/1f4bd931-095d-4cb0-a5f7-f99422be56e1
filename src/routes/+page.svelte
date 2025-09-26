@@ -62,24 +62,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why brands choose Bori"
+	subtitle="Authentic Korean tradition meets modern market appeal"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Cultural authenticity guaranteed",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Every recipe draws from centuries-old Korean brewing traditions, validated by heritage experts. Your brand gains genuine cultural credibility that resonates with discerning consumers."
 		},
 		{
-			title: "Data Analysis",
+			title: "Gen Z storytelling mastery",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"We craft narratives that bridge traditional heritage with contemporary values that Gen Z craves. Your beverage becomes a cultural bridge, not just a product."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Traditional brewing excellence",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Our co-founders bring authentic Korean fermentation knowledge passed down through generations. Quality and tradition flow through every batch."
+		},
+		{
+			title: "Market differentiation strategy",
+			description:
+				"Stand out in the $47B global tea market with positioning that avoids generic Asian stereotypes. We help you claim authentic cultural space competitors can't replicate."
+		},
+		{
+			title: "Cross-cultural appeal design",
+			description:
+				"Visual identity that honors Korean aesthetics while appealing to diverse American palates. Your brand speaks to heritage seekers and modern consumers alike."
+		},
+		{
+			title: "Quality assurance process",
+			description:
+				"Every beverage undergoes rigorous testing to ensure authentic taste profiles meet modern food safety standards. Tradition and reliability in every sip."
 		}
 	]}
 />

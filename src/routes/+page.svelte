@@ -26,36 +26,34 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We deliver authentic Korean beverage experiences by combining traditional brewing heritage with contemporary brand storytelling that resonates across cultural boundaries."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maria Chen",
+			position: "Brand Director",
+			company: "Zen Beverages",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Bori helped us launch an authentic Korean tea line that Gen Z actually loves.\nOur sales exceeded expectations by 40% in the first quarter.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "David Kim",
+			position: "Product Development Manager",
+			company: "Heritage Drinks Co",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Their cultural expertise prevented us from making costly authenticity mistakes.\nWe differentiated in the crowded tea market without falling into stereotypes.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Jennifer Park",
+			position: "Marketing Lead",
+			company: "Modern Botanicals",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"The traditional brewing knowledge combined with contemporary branding was exactly what we needed.\nOur Korean-inspired line became our fastest-growing segment.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
@@ -97,5 +95,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Start your brand's next chapter"
+	subtitle="Traditional flavor meets modern story"
+	description="Bring your beverage concept to life with the cultural depth and visual clarity it needs to win on shelf. We'll help you go from idea to authentic impact—without compromise."
+	imageSrc="/generated/image-a-professional-asian-american-brand-mana.webp"
+	callsToAction={[
+		{
+			href: "/about",
+			label: "Partner with us",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "View case studies",
+			variant: "secondary"
+		}
+	]}
+/>

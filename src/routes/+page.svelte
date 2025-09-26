@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Tradition that tastes like today"
+	subtitle="Authentic Korean teas. Modern brand appeal."
+	imageSrc="/generated/image-a-young-korean-american-woman-sits-at-a-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/wholefoods.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/target.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/hmart.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/traderjoes.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
